@@ -7,7 +7,7 @@ pub struct DotenvConfig {
 #[derive(Debug,Clone)]
 pub struct Server {
     pub port:u16,
-    pub body_limit:u64,
+    pub body_limit:usize,
     pub timeout:u64,
 }
 
